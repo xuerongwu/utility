@@ -26,3 +26,5 @@ git branch -d brh //delete a branch
 git push origin brh //push branch to gitHub
 
 git merge brh//merge branch and master
+
+git push origin --delete brh //delete remote branch
