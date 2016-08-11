@@ -9,3 +9,16 @@ git push -u origin master //use to first time push
 git push origin master //push updates to gitHub
 
 git clone [https] // clone a reposity to local
+
+/*****************************
+using branch command
+*****************************/
+git branch [branch name] //create a new branch
+
+git branch //check branch name
+
+git checkout brh //change to brh branch
+
+git checkout -b brh //this command combine the branch creation and switch
+
+git branch -d brh //delete a branch
