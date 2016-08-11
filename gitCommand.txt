@@ -27,4 +27,16 @@ git push origin brh //push branch to gitHub
 
 git merge brh//merge branch and master
 
-git push origin --delete brh //delete remote branch
+git push origin --delete brh //delete remote branchgit 
+git push origin: [empty branch]
+
+git branch -m brh lxh //change branch name
+
+git branch -a //check all remote and local branches
+
+git branch -r //check remote branches
+
+git branch -l //ckeck local branches
+
+git branch -D brh //force to delete a branch
+
