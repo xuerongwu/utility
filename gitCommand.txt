@@ -41,3 +41,14 @@ git branch -l //ckeck local branches
 git branch -D brh //force to delete a branch
 
 git log --graph --pretty=oneline //check merger history
+
+/*****************************
+Fast forward is common way to merge two branches (no commit id)
+But, there is other merging way: add --no-ff
+this will generate a new commit id 
+below are procedure:
+*****************************/
+git checkout -b brh
+git commit -a -m ""
+git checkout master
+git merge --no-f -m "comment"
