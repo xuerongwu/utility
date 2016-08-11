@@ -1,0 +1,11 @@
+git remote origin [https] //use to first time to connect to remote repository
+git remote add test [ssh] //add new repository
+
+git remote set-url origin [https] //set to origin
+git remote rm test //remove a repository
+
+git push -u origin master //use to first time push
+
+git push origin master //push updates to gitHub
+
+git clone [https] // clone a reposity to local
