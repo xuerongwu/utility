@@ -22,3 +22,5 @@ git checkout brh //change to brh branch
 git checkout -b brh //this command combine the branch creation and switch
 
 git branch -d brh //delete a branch
+
+git push origin brh //push branch to gitHub
