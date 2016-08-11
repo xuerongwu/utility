@@ -40,3 +40,4 @@ git branch -l //ckeck local branches
 
 git branch -D brh //force to delete a branch
 
+git log --graph --pretty=oneline //check merger history
