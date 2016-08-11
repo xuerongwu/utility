@@ -1,7 +1,7 @@
 git remote origin [https] //use to first time to connect to remote repository
 git remote add test [ssh] //add new repository
 
-git remote set-url origin [https] //set to origin
+git remote set-url origin [https] //connect local to gitHub, may use when computer restart
 git remote rm test //remove a repository
 
 git push -u origin master //use to first time push
