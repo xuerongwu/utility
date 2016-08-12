@@ -51,4 +51,10 @@ below are procedure:
 git checkout -b brh
 git commit -a -m ""
 git checkout master
-git merge --no-f -m "comment"
+git merge --no-f -m "comment" [branch name]
+
+/***************************
+using when you have new task
+****************************/
+git stash //temp store branch nothing to commit when you use git status 
+          //then return the master branch to finish new job
