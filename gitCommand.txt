@@ -58,3 +58,33 @@ using when you have new task
 ****************************/
 git stash //temp store branch nothing to commit when you use git status 
           //then return the master branch to finish new job
+git stash list  //check temp store branches
+//one way
+git stash apply
+git stash drop
+//second way:
+git stash pop
+
+//patch git the code diff to develops,you have to test patch file status when you apply creating patch command
+git diff //create a patch
+git diff master > filename //create a patch
+git apply patch_filename
+git commit -a -m "" //submit patch
+
+git format-patch -M master //-M: indicate branch, create a patch
+git am [patch_file name] //apply patch
+git merge origin [remote branches name] //copy remote branch into local, remember create the branch at local first
+
+//obtain updates from remote
+git fetch//get branch updates without merge
+git pull//get branch updates with merging
+git branch --set-upstream-to=origin/<branch> brh //link to remote branchw
+
+git tag v1.0 //add tag to branch
+git tag //check tag
+git show [tag name] //show tag info
+git tag -a v0.6 -m "comment" [commit id] //set comment for a tag
+
+//.gitignore use to ignore unwanted file
+
+//git config --global alias.ss status//set status to ssw
